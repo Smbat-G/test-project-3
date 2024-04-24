@@ -287,8 +287,6 @@
 // }
 // console.log(t);
 
-
-
 // 277 ???
 
 // let list = ["a", "v", 6, "r", "p", "h", "s", "k", "s", "p"];
@@ -297,8 +295,6 @@
 //     return typeof item === "string" && item > "k"
 // })
 // console.log(result);
-
-
 
 // 278
 
@@ -309,8 +305,6 @@
 // })
 // console.log(result);
 
-
-
 // 279 ???
 
 // let list = ["a", "v", 6, "r", "p", "h", "s", "k", "s", "p"];
@@ -319,8 +313,6 @@
 //     return typeof item === "string" && item > 'k'
 // })
 // console.log(result);
-
-
 
 // 280 ???? inchi chi verjis avelanum f bayc hamapatasxanum e pahanjin lucum@
 
@@ -335,3 +327,287 @@
 // }
 // console.log(newList);
 
+// ============================================================================================================================================
+// 23.04.24
+
+// 379 ashxatuma bayc chem patkeracnum vonc
+
+// function foo(n){
+//     let arr = []
+//     let simple = false
+//     for(let i = 1; i < n; i++){
+//         simple = true
+//         for(let j = 2; j < i; j++){
+//             if(i % j === 0){
+//                simple = false
+//             }
+//         }
+//         if(simple){
+//             arr.push(i)
+//         }
+//     }
+//     console.log(arr);
+// }
+// foo(50)
+
+// 380
+
+222;
+// let max = 0
+// let max1 = 0
+// let min = 0
+// let min1 = 0
+// let result = 0
+// let result1 = 0
+
+// for(let i = 0; i < x.length; i++){
+//     if(x[i] > max){
+//         max = x[i]
+//     }
+// }
+
+// for(let i = 0; i < y.length; i++){
+//     if(y[i] > max1){
+//         max1 = y[i]
+//     }
+// }
+
+// result = (max + max1) / 2
+// console.log(result);
+
+// for(let i = 0; i < x.length; i++){
+//     if(x[i] < min){
+//         min = x[i]
+//     }
+// }
+// console.log(min);
+
+// for(let i = 0; i < y.length; i++){
+//     if(y[i] < min1){
+//         min1 = y[i]
+//     }
+// }
+// console.log(min1);
+// result1 = min * min1 / 2
+// console.log(result1);
+
+// 381
+
+// let arr = [5, 8, 1, 9, -8, 7, 2, 10]
+
+// let result = arr.sort(function(a, b){
+//     return a - b
+// })
+// console.log((result));
+
+//====================================================================================================================================================
+
+// 382
+
+// let x = [0, 4, -8, 6, 9, 7, 11];
+// let y = [1, 88, -8, 6, 9, 44, 5];
+// let z = [];
+
+// function foo() {
+//   for (let i = 0; i < x.length; i++) {
+//    if(!z.includes(x[i])){
+//     z.push(x[i])
+//    }
+//   }
+//   for(let j = 0; j < j.length; j++){
+//     if(!z.includes(y[j])){
+//       z.push(y[j])
+//     }
+//   }
+//   console.log(z);
+// }
+// foo();
+
+// 383/384 (383 aranc break ???)
+
+// let x = [0, 4, -8, 6, 9, 7, 11];
+// let y = [1, 88, -8, 6, 9, 44, 5];
+// let z = [];
+
+// function foo() {
+//   for (let i = 0; i < x.length; i++) {
+//     if (y.includes(x[i])) {
+//       z.push(x[i]);
+//       break;
+//     }
+//   }
+//   console.log(z);
+// }
+
+// foo();
+
+// 385
+
+// let x = [0, 4, 4, 6, 9, 7, 11];
+// let y = [1, 88, -8, 6, 9, 44, 5];
+// let z = [];
+
+// function foo() {
+//   for (let i = 0; i < x.length; i++) {
+//     if (y.includes(x[i])) {
+//       z.push(x[i]);
+
+//     }
+//   }
+//   console.log(z);
+// }
+// foo()
+
+// 386
+
+// function foo(x, y) {
+//   let avg = 0;
+//   for (let i = 0; i < y.length; i++) {
+//     avg += y[i] / y.length;
+//   }
+
+//   let z = [];
+//   for (let j = 0; j < x.length; j++) {
+//     if (x[j] > avg) {
+//       z.push(x[j]);
+//     }
+//   }
+//   return z;
+// }
+// let x = [1, 88, -8, 6, 9, 44, 5];
+// let y = [0, 4, 4, 6, 9, 7, 11];
+// let result = foo(x, y);
+// console.log(result);
+
+// 387
+
+// function foo(x, y) {
+//   let max = 0;
+//   for (let i = 0; i < y.length; i++) {
+//     if (y[i] > max) {
+//       max = y[i];
+//     }
+//   }
+//   let z = [];
+//   for (let j = 0; j < x.length; j++) {
+//     if (x[j] > max) {
+//       z.push(x[j]);
+//     }
+//   }
+//   return z;
+// }
+// let x = [1, 88, -8, 6, 9, 44, 5];
+// let y = [0, 4, 4, 6, 9, 7, 11];
+// let result = foo(x, y);
+// console.log(result);
+
+
+// 388 ???
+
+// function foo(x, y){
+//   let min = x[0]
+//   let z = []
+//   for(let i = 0; i < x.length; i++){
+//     if(x[i] < min){
+//       min = x[i]
+//     }
+//   }
+//     console.log(min);
+//     for(let j = 0; j < y.length; j++){
+//       if(y[j] < min){
+//        z.push(y[j])
+        
+//       }
+//     }
+  
+//   return z
+// }
+
+// let x = [11, 88, 3, 6, 9, 44, 5];
+// let y = [7, 4, 2, 6, 9, 7, 1, 8];
+// let result = foo(x, y);
+// console.log(result);
+
+
+
+
+// 389
+
+// function foo(x, y){
+//   let odd = y[0]
+//   let avg = y[0]
+//   let z = []
+//   for(let j = 0; j < y.length; j++){
+//     if(y[j] % 2 !== 0){
+//         odd = y[j]
+//         avg += odd / y.length
+//     }
+//   }
+//   console.log(avg);
+//   for(let i= 0; i < x.length; i++){
+//     if(x[i] > avg && x[i] >= 0){
+//         z.push(x[i])
+
+//     }
+//   }
+//   return z
+// }
+// let x = [11, 88, 3, 6, 9, 44, 5];
+// let y = [7, 4, 2, 6, 9, 7, 1, 8];
+// let result = foo(x, y);
+// console.log(result);
+
+
+
+// 390 
+
+// function foo(x, y){
+//   let evan = y[0]
+//   let avg = y[0]
+//   let absolute = x[0]
+//   let z = []
+//   for(let j = 0; j < y.length; j++){
+//     if(y[j] % 2 === 0){
+//         evan = y[j]
+//         avg *= evan * evan/ y.length
+//     }
+//   }
+//   console.log(avg);
+//   for(let i= 0; i < x.length; i++){
+//     if(x[i] < avg && x[i] >= 0){
+//         z.push(x[i])
+//     }
+//   }
+//   return z
+// }
+// let x = [11, 88, 3, 6, 9, 4444, 5555];
+// let y = [7, 4, 2, 6, 9, 7, 1, 8];
+// let result = foo(x, y);
+// console.log(result);
+
+
+
+// 391 
+
+// function foo(x, y){
+//   let avg = y[0]
+//   let z = []
+ 
+//   for(let j = 0; j < y.length; j++){
+   
+//         avg *= y[j] * y[j] / y.length
+    
+//   }
+//   console.log(avg);
+//   for(let i= 0; i < x.length; i++){
+//     if(x[i] < avg){
+//         z.push(x[i])
+   
+//     }
+//   }
+//   return z
+// }
+// let x = [11, 88, 3, 6, 9, 44454,55455];
+// let y = [7, 4, 2, 6, 9, 7, 1, 8];
+// let result = foo(x, y);
+// console.log(result);
