@@ -402,28 +402,27 @@
 
 //====================================================================================================================================================
 
-// 382
+// 382 ++
 
 // let x = [0, 4, -8, 6, 9, 7, 11];
 // let y = [1, 88, -8, 6, 9, 44, 5];
-// let z = [];
+
 
 // function foo() {
-//   for (let i = 0; i < x.length; i++) {
-//    if(!z.includes(x[i])){
-//     z.push(x[i])
-//    }
-//   }
-//   for(let j = 0; j < j.length; j++){
-//     if(!z.includes(y[j])){
-//       z.push(y[j])
+//   for (let i = 0; i < y.length; i++) {
+//     if (x.includes(y[i])) {
+//       y.splice(i, 1);
+//       i--;
 //     }
 //   }
-//   console.log(z);
+//   console.log(y);
 // }
+
 // foo();
 
-// 383/384 (383 aranc break ???)
+
+
+// 383/384 (383 aranc break)
 
 // let x = [0, 4, -8, 6, 9, 7, 11];
 // let y = [1, 88, -8, 6, 9, 44, 5];
@@ -441,15 +440,16 @@
 
 // foo();
 
-// 385
 
-// let x = [0, 4, 4, 6, 9, 7, 11];
+// 385 ++
+
+// let x = [0, 4, 4, 6, 9, 88, 11];
 // let y = [1, 88, -8, 6, 9, 44, 5];
 // let z = [];
 
 // function foo() {
 //   for (let i = 0; i < x.length; i++) {
-//     if (y.includes(x[i])) {
+//     if (y.includes(x[i]) && z.length < 2) {
 //       z.push(x[i]);
 
 //     }
@@ -502,7 +502,7 @@
 // console.log(result);
 
 
-// 388 ???
+// 388 
 
 // function foo(x, y){
 //   let min = x[0]
